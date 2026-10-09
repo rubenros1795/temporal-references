@@ -61,7 +61,13 @@ group corresponds to one point where the cascade can be wrong:
 | D_neighbour | both verifiers yes, quote not in TARGET | the quote check wrongly rejects | 25 | all | 2 |
 | Z_original | screen no, but the original pipeline (A) found a comparison in the TARGET | screen miss | 90 | 50 | 2 |
 | E1_flag / E1_noflag | screen no, past cue in the sentence; detector yes / no | screen miss | 803 / 8,209 | 45 / 110 | 2 / 1 |
-| E2_flag / E2_noflag | screen no, no past cue; detector yes / no | screen miss | 2,978 / 96,232 | 45 / 270 | 2 / 1 |
+| E2_flag / E2_noflag | screen no, no past cue; detector yes / no | screen miss | 2,978 / 96,232 | 45 / 420 | 2 / 1 |
+
+**Allocation.** E2_noflag is by far the largest stratum, and with an expected share of analogies of roughly
+0.1–0.6% it carries about 60% of the uncertainty in the total number of real analogies. It therefore gets the most
+items (420; the Neyman-optimal allocation for the total would give it about the same share). More would barely
+help: 650 items instead of 420 narrows the recall interval by only about one more point (simulated). The A strata
+are kept at 50 per era, more than the total alone would need, because precision per era is a main result.
 
 Together the strata cover every test sentence exactly once. Every real analogy the cascade misses therefore sits
 in B, C, D, Z or E, and the stratum says at which step it was lost.
@@ -89,10 +95,10 @@ intervals (section 6).
 
 ## 4. Coding
 
-- **Three coders** (Ruben, Fien, Adriaan), **one list each** (about 417 sentences), one round.
+- **Three coders** (Ruben, Fien, Adriaan), **one list each** (about 467 sentences), one round.
 - **Double coding** (A, B, C, D, Z, E*_flag: 435 items): two coders per item. The three pairs rotate within
   every stratum, so each pair shares about 145 items with the same mix of strata.
-- **Single coding** (E1_noflag, E2_noflag: 380 items): these are almost all plain "no", and double coding them
+- **Single coding** (E1_noflag, E2_noflag: 530 items): these are almost all plain "no", and double coding them
   would halve the sample where precision matters most.
 - **Blind**: coders see the crisis, the article context and the TARGET sentence, never the stratum or the
   model's answers (`key.csv` stays local). Items are mixed in random order per coder.
@@ -150,7 +156,7 @@ across eras; otherwise correct per era first.
 - **sizes of the E sub-strata:** shares ~ Dirichlet(m_flag + ½, m_noflag + ½) from the phase-1 counts.
 
 Each draw gives precision, recall, rate and losses by the formulas of section 5. Unlike a bootstrap, a stratum
-with zero positives still adds uncertainty: 0 of 270 in E2_noflag does not mean 0 analogies in 96,232 sentences,
+with zero positives still adds uncertainty: 0 of 420 in E2_noflag does not mean 0 analogies in 96,232 sentences,
 and recall's lower bound reflects that. Per-stratum shares are reported with the same Jeffreys intervals.
 
 ## 7. Agreement

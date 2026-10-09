@@ -34,10 +34,10 @@ DATA = HERE / "data"
 # stratum -> (items to code, coders per item); None = all
 QUOTA = {"A_pre1940": (50, 2), "A_1940_1969": (50, 2), "A_1970_1992": (50, 2),
          "B_split": (70, 2), "C_rejected": (50, 2), "D_neighbour": (None, 2), "Z_original": (50, 2),
-         "E1_flag": (45, 2), "E2_flag": (45, 2), "E1_noflag": (110, 1), "E2_noflag": (270, 1)}
+         "E1_flag": (45, 2), "E2_flag": (45, 2), "E1_noflag": (110, 1), "E2_noflag": (420, 1)}
 # without the detector (--no-detector): E1/E2 unsplit, single-coded
 QUOTA_NODET = {**{k: v for k, v in QUOTA.items() if not k.startswith("E")},
-               "E1_cue": (150, 1), "E2_nocue": (270, 1)}
+               "E1_cue": (150, 1), "E2_nocue": (420, 1)}
 
 
 def detector_split(t):
