@@ -3,9 +3,11 @@ Coding app for the cascade evaluation: one screen, one sentence at a time.
 
     .venv_annotator/bin/streamlit run evaluation/app.py
 
-Each coder opens their own link (…/?coder=fien) and works through their own list. Every save is stored at once:
+Each coder opens their own link (…/?coder=fien) and works through their own list. Every save is stored at once
+(closing the browser loses at most the unsaved sentence on screen; the link resumes at the first uncoded one):
 in labels/<coder>.jsonl locally, or, on Streamlit Cloud, on the `labels` branch of the GitHub repo set in the
-app's secrets ([github] token, repo, branch). The latest answer per item counts; the codebook version is kept
+app's secrets ([github] token, repo, branch); each save is a commit, so the history keeps every answer.
+If a save fails, the app says so and does not move on. The latest answer per item counts; the codebook version is kept
 with every answer. Coders never see model output, strata or each other's answers. Adjudication is a separate
 app (adjudicate.py), run locally.
 """
@@ -99,13 +101,20 @@ def main():
 
     mine = asg[asg.coder == coder].sort_values("order").item_id.tolist()
     if "done" not in st.session_state:
-        st.session_state.done = store().read(coder)
+        try:
+            st.session_state.done = store().read(coder)
+        except Exception:
+            st.error("Could not load your saved answers (connection problem). Nothing is lost: reload this page "
+                     "in a minute.")
+            return
     done = st.session_state.done
     if "pos" not in st.session_state:
         st.session_state.pos = next((k for k, i in enumerate(mine) if i not in done), len(mine))
     pos = st.session_state.pos
 
     n_done = sum(i in done for i in mine)
+    if "saved" in st.session_state:
+        st.toast(st.session_state.pop("saved"), icon="✅")
     st.progress(n_done / len(mine), text=f"{coder}: {n_done} of {len(mine)} coded")
     with st.expander("How this works"):
         st.markdown(INTRO)
@@ -129,9 +138,16 @@ def main():
     if rec:
         rec = {"item_id": item_id, "coder": coder, "time": time.strftime("%Y-%m-%d %H:%M:%S"),
                "codebook": CODEBOOK_VERSION, **rec}
-        with st.spinner("saving…"):
-            store().append(coder, rec)
+        try:
+            with st.spinner("saving…"):
+                store().append(coder, rec)
+        except Exception:
+            # do not move on: the answer stays in the form, so clicking again retries
+            st.error("⚠️ This answer was NOT saved (connection problem). Check your internet and click "
+                     "'Save and next' again. Earlier answers are safe.")
+            return
         done[item_id] = rec
+        st.session_state.saved = f"Saved ({sum(i in done for i in mine)} of {len(mine)})"
         st.session_state.pos = next((k for k in range(pos + 1, len(mine)) if mine[k] not in done), len(mine))
         st.rerun()
     if pos > 0 and st.button("← back"):
