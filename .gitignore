@@ -1,0 +1,10 @@
+# Only the evaluation app is versioned here (deployed on Streamlit Community Cloud).
+/*
+!/.gitignore
+!/requirements.txt
+!/evaluation/
+# hidden from coders: model outputs per item; coder labels live on the `labels` branch
+/evaluation/data/key.csv
+/evaluation/labels/
+/evaluation/results/
+__pycache__/
