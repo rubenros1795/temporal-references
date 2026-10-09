@@ -1,8 +1,8 @@
 """
 Adjudication app (run locally by the adjudicator once every coder has finished).
 
-    .venv_annotator/bin/python evaluation/pull_labels.py        # labels from GitHub, if the coding app ran there
-    .venv_annotator/bin/streamlit run evaluation/adjudicate.py
+    .venv_annotator/bin/python evaluation/3_pull_labels.py        # labels from GitHub, if the coding app ran there
+    .venv_annotator/bin/streamlit run evaluation/4_adjudicate.py
 
 Lists disagreements between two coders, items someone marked unsure and single-coded "yes" items. Answers are
 shown without names, since the adjudicator may also be a coder. Decisions go to labels/_review.jsonl.
@@ -44,7 +44,7 @@ def main():
     labs = {c: read_labels(label_file(c)) for c in coders}
     left = {c: sum(i not in labs[c] for i in asg[asg.coder == c].item_id) for c in coders}
     if any(left.values()):
-        st.warning("Not every coder has finished (run pull_labels.py for the latest). Still to code: "
+        st.warning("Not every coder has finished (run 3_pull_labels.py for the latest). Still to code: "
                    + ", ".join(f"{c} {n}" for c, n in left.items()))
         return
     rev_path = LABELS / "_review.jsonl"
@@ -59,7 +59,7 @@ def main():
     st.progress(1 - len(open_) / max(len(todo), 1), text=f"{len(todo) - len(open_)} of {len(todo)} decided")
     lst = open_ if st.checkbox("only undecided", True) else todo
     if not lst:
-        st.success("Everything decided. Run evaluation/score.py.")
+        st.success("Everything decided. Run evaluation/5_score.py.")
         return
     pick = st.selectbox("item", range(len(lst)), format_func=lambda k: f"{lst[k][0]} ({lst[k][2]})")
     item_id, got, why = lst[pick]

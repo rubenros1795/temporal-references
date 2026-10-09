@@ -2,7 +2,7 @@
 
 Labels are one JSON line per save in labels/<coder>.jsonl; the latest answer per item counts.
 On Streamlit Cloud the disk is wiped on every restart, so app.py stores the same files on a branch of a
-GitHub repo instead (GitHubStore). pull_labels.py copies them back into labels/ for adjudication and scoring.
+GitHub repo instead (GitHubStore). 3_pull_labels.py copies them back into labels/ for adjudication and scoring.
 """
 import base64
 import json

@@ -1,7 +1,7 @@
 """
 Copy the coders' labels from the GitHub `labels` branch (where the Streamlit Cloud app saves them) into labels/.
 
-    .venv_annotator/bin/python evaluation/pull_labels.py --repo rubenros1795/temporal-references
+    .venv_annotator/bin/python evaluation/3_pull_labels.py --repo rubenros1795/temporal-references
 
 Uses the token of the GitHub CLI (`gh auth token`) or $GITHUB_TOKEN. Overwrites labels/<coder>.jsonl, never
 labels/_review.jsonl (the adjudicator's decisions, which live only here).

@@ -1,0 +1,66 @@
+{
+  "coders": [
+    "Ruben",
+    "Fien",
+    "Adriaan"
+  ],
+  "adjudicator": "Ruben",
+  "seed": 11,
+  "detector": {
+    "model": "Qwen3-14B (Q4_K_M)",
+    "url": "http://127.0.0.1:8082",
+    "prompt": "check, zero-shot"
+  },
+  "test_sentences": 115936,
+  "test_sentences_by_era": {
+    "1970_1992": 66323,
+    "1940_1969": 32952,
+    "pre1940": 16661
+  },
+  "quota": {
+    "A_pre1940": [
+      50,
+      2
+    ],
+    "A_1940_1969": [
+      50,
+      2
+    ],
+    "A_1970_1992": [
+      50,
+      2
+    ],
+    "B_split": [
+      70,
+      2
+    ],
+    "C_rejected": [
+      50,
+      2
+    ],
+    "D_neighbour": [
+      null,
+      2
+    ],
+    "Z_original": [
+      50,
+      2
+    ],
+    "E1_flag": [
+      45,
+      2
+    ],
+    "E2_flag": [
+      45,
+      2
+    ],
+    "E1_noflag": [
+      110,
+      1
+    ],
+    "E2_noflag": [
+      270,
+      1
+    ]
+  }
+}

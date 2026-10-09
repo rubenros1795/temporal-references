@@ -1,8 +1,8 @@
 """
 Draw the evaluation sample from the cascade main run and give each coder one list.
 
-    .venv_annotator/bin/python evaluation/run_detector.py          # once, first (needs ./serve.sh)
-    .venv_annotator/bin/python evaluation/make_sample.py --coders "Anna,Bram,Carla" --adjudicator Ruben
+    timeout 30m .venv_annotator/bin/python evaluation/1_run_detector.py --url ... --zero-shot   # once, first
+    .venv_annotator/bin/python evaluation/2_make_sample.py --coders "Ruben,Fien,Adriaan" --adjudicator Ruben
 
 Writes evaluation/data/:
   items.csv        what coders see: crisis, article, context, TARGET sentence (no model output)
@@ -41,9 +41,9 @@ QUOTA_NODET = {**{k: v for k, v in QUOTA.items() if not k.startswith("E")},
 
 
 def detector_split(t):
-    """Sub-stratum and phase-1 counts for the screen-no sentences, from run_detector.py's output."""
+    """Sub-stratum and phase-1 counts for the screen-no sentences, from 1_run_detector.py's output."""
     if not strata.DETECTOR_JSONL.exists():
-        sys.exit("No detector output: run evaluation/run_detector.py first (or pass --no-detector).")
+        sys.exit("No detector output: run evaluation/1_run_detector.py first (or pass --no-detector).")
     man = pd.read_csv(strata.DETECTOR_MANIFEST, dtype=str)
     det = {r["instance_id"]: r for r in map(json.loads, open(strata.DETECTOR_JSONL, encoding="utf-8"))
            if not r.get("annotation_error")}
@@ -67,8 +67,8 @@ def main():
     if len(coders) < 2:
         sys.exit("Give at least two coders.")
     if args.adjudicator in coders:
-        print(f"Note: {args.adjudicator} codes and adjudicates. The Adjudicate page hides who gave which answer, "
-              "and score.py reports estimates from each other coder alone, which adjudication cannot affect.")
+        print(f"Note: {args.adjudicator} codes and adjudicates. The adjudication app hides who gave which answer, "
+              "and 5_score.py reports estimates from each other coder alone, which adjudication cannot affect.")
     labels = HERE / "labels"
     if labels.exists() and any(labels.iterdir()) and not args.force:
         sys.exit("labels/ already holds codes: the sample is fixed. Use --force only if you mean to start over.")

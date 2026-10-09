@@ -9,7 +9,7 @@ in labels/<coder>.jsonl locally, or, on Streamlit Cloud, on the `labels` branch 
 app's secrets ([github] token, repo, branch); each save is a commit, so the history keeps every answer.
 If a save fails, the app says so and does not move on. The latest answer per item counts; the codebook version is kept
 with every answer. Coders never see model output, strata or each other's answers. Adjudication is a separate
-app (adjudicate.py), run locally.
+app (4_adjudicate.py), run locally.
 """
 import hashlib
 import json

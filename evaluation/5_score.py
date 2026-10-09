@@ -1,7 +1,7 @@
 """
 Score the cascade against the hand codes.
 
-    .venv_annotator/bin/python evaluation/score.py
+    .venv_annotator/bin/python evaluation/5_score.py
 
 Gold label per item: the adjudicator's decision if there is one; otherwise the agreed answer of the two coders
 (double-coded items) or the single coder's answer. Until adjudication, a disagreement counts as half a yes and a

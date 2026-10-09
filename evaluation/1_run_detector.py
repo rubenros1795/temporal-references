@@ -7,12 +7,12 @@ calls an analogy form E1_flag / E2_flag, the rest E1_noflag / E2_noflag. The det
 each part is sampled; the weights keep every estimate unbiased whatever its quality.
 
 The phase-1 list is shuffled, so the run can be stopped at any time (e.g. `timeout 30m`): the sentences
-finished by then are a random sample of the list, and make_sample.py uses exactly those.
+finished by then are a random sample of the list, and 2_make_sample.py uses exactly those.
 
 --zero-shot drops the cascade's few-shots (about 12k tokens), keeping the question and its definitions. With a
 different model (--url pointing at another server) this gives a detector that shares little with the screen.
 
-    timeout 30m .venv_annotator/bin/python evaluation/run_detector.py --url http://127.0.0.1:8082 --zero-shot \
+    timeout 30m .venv_annotator/bin/python evaluation/1_run_detector.py --url http://127.0.0.1:8082 --zero-shot \
         --model-name "Qwen3-14B" > logs/eval_detector.log 2>&1
 """
 import argparse

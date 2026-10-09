@@ -1,5 +1,5 @@
 """
-Strata of the evaluation, shared by run_detector.py, make_sample.py and score.py.
+Strata of the evaluation, shared by 1_run_detector.py, 2_make_sample.py and 5_score.py.
 
 Every test sentence of the cascade main run falls in exactly one parent stratum, by what the pipeline decided:
 
@@ -11,9 +11,9 @@ Every test sentence of the cascade main run falls in exactly one parent stratum,
   E1_cue      screen no, the sentence has a past cue (eerder, nooit, sinds, 19xx, ...)
   E2_nocue    screen no, no cue
 
-E1 and E2 are split once more by an independent detector (run_detector.py) into *_flag (detector yes) and
-*_noflag. E2 is too large to run the detector on every sentence, so the detector runs on a random phase-1
-sample of E2 and the split is estimated from it (two-phase sampling; score.py carries that uncertainty).
+E1 and E2 are split once more by an independent detector (1_run_detector.py) into *_flag (detector yes) and
+*_noflag. The detector runs on a random phase-1 sample of E1 and E2, and the size of each part is estimated
+from it (two-phase sampling; 5_score.py carries that uncertainty).
 
 Test sentences = the main run minus everything used while building the pipeline: earlier runs' samples,
 excluded_ids_earlier_runs.txt and sentences that appear as few-shot examples.
