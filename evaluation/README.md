@@ -53,8 +53,9 @@ random order, and is done when it is finished.
   towards the model. Answers are shown without names. Because Ruben also codes, his decisions could lean towards
   his own answers; the report's "Fien alone" and "Adriaan alone" estimates do not depend on adjudication and show
   whether that matters.
-- Nobody sees model output or strata. Coders never see each other's answers (labels are stored in a private
-  repo), and adjudication only starts when every coder has finished.
+- Nobody sees model output or strata: `key.csv` never leaves this computer. Coders are not shown each other's
+  answers, and adjudication only starts when every coder has finished. (The repo is public, so the labels branch
+  could be looked up; coders are asked not to discuss items until all have finished.)
 
 **Gold label per item:** the adjudicator's decision; otherwise the coders' agreed answer (double) or the single
 coder's "no".
@@ -70,8 +71,8 @@ coder's "no".
    ```
    .venv_annotator/bin/python evaluation/make_sample.py --coders "Ruben,Fien,Adriaan" --adjudicator Ruben
    ```
-3. **The coding app** runs on Streamlit Community Cloud from the private repo
-   `Adapt-Preparing-societies-for-crises/temporal-references` (main file `evaluation/app.py`). Only this folder is
+3. **The coding app** runs on Streamlit Community Cloud from the public repo
+   `rubenros1795/temporal-references` (main file `evaluation/app.py`). Only this folder is
    versioned (see `../.gitignore`); `key.csv`, `labels/` and `results/` never leave this computer. The disk of a
    Streamlit Cloud app is wiped on every restart, so the app saves each answer as a commit to
    `labels/<coder>.jsonl` on the repo's `labels` branch (not `main`: a push to `main` redeploys the app). It needs
@@ -79,7 +80,7 @@ coder's "no".
    ```
    [github]
    token = "github_pat_..."
-   repo = "Adapt-Preparing-societies-for-crises/temporal-references"
+   repo = "rubenros1795/temporal-references"
    branch = "labels"
    ```
    Each coder gets a personal link, `https://<app>.streamlit.app/?coder=fien`. Invite them as viewers of the app.
