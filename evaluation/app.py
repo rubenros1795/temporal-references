@@ -12,6 +12,7 @@ with every answer. Coders never see model output, strata or each other's answers
 app (4_adjudicate.py), run locally.
 """
 import hashlib
+import html
 import json
 import sys
 import time
@@ -31,7 +32,8 @@ CODEBOOK = (HERE / "CODEBOOK.md").read_text(encoding="utf-8")
 CODEBOOK_VERSION = hashlib.sha1(CODEBOOK.encode()).hexdigest()[:8]
 INTRO = (HERE / "FOR_CODERS.md").read_text(encoding="utf-8").split("\n", 1)[1].strip()
 
-st.set_page_config(page_title="Analogy coding", layout="centered")
+st.set_page_config(page_title="Vergelijkingen met het verleden", layout="centered")
+st.html("<style>section[data-testid='stSidebar']{width:430px !important}</style>")
 
 
 @st.cache_data
@@ -52,34 +54,40 @@ def store():
 
 
 def show_item(it):
-    st.caption(f"**{it.crisis}** (began {it.crisis_start}) · {it.newspaper} · {it.article_date}")
-    if it.context_before:
-        st.markdown(f"<div style='color:grey'>{it.context_before}</div>", unsafe_allow_html=True)
-    st.markdown(f"<div style='border-left:4px solid #e0a800;padding:8px 12px;margin:6px 0;"
-                f"background:rgba(224,168,0,.12)'><b>TARGET:</b> {it.target_sentence}</div>", unsafe_allow_html=True)
-    if it.context_after:
-        st.markdown(f"<div style='color:grey'>{it.context_after}</div>", unsafe_allow_html=True)
+    """The passage as one paragraph, with the TARGET sentence highlighted in place."""
+    ctx = lambda t: f"<span style='color:#777'>{html.escape(t)}</span>" if t else ""
+    target = (f"<mark style='background:#ffe08a;color:#111;padding:2px 3px;border-radius:3px'>"
+              f"{html.escape(it.target_sentence)}</mark>")
+    st.caption(f"**{it.crisis}** (begon {it.crisis_start}) · {it.newspaper} · {it.article_date}")
+    st.html(f"<p style='font-size:1.12rem;line-height:1.75;margin:4px 0 16px'>"
+            f"{ctx(it.context_before)} {target} {ctx(it.context_after)}</p>")
+
+
+# stored values (English, used by the scoring) -> what coders see
+NL = {"yes": "ja", "no": "nee", "similarity": "gelijkenis", "rupture": "breuk", "named_event": "één gebeurtenis",
+      "series": "reeks", "whole_past": "hele verleden", "general_period": "periode"}
 
 
 def answer_form(key, prev):
     """The coding form; returns the answer when submitted and complete, else None."""
     idx = lambda opts, v: opts.index(v) if v in opts else None
+    nl = NL.get
     with st.form(key):
-        a = st.radio("Does the TARGET compare the present with a past from before the crisis?", ["yes", "no"],
-                     index=idx(["yes", "no"], prev.get("analogy")), horizontal=True)
+        a = st.radio("Vergelijkt de gemarkeerde zin het heden met een verleden van vóór de crisis?", ["yes", "no"],
+                     index=idx(["yes", "no"], prev.get("analogy")), horizontal=True, format_func=nl)
         c1, c2 = st.columns(2)
-        dr = c1.radio("If yes: direction", DIRECTIONS, index=idx(DIRECTIONS, prev.get("direction")))
-        kd = c2.radio("If yes: kind of past", KINDS, index=idx(KINDS, prev.get("kind")))
-        past = st.text_input("If yes: the past referred to (a few words)", prev.get("past", ""))
-        unsure = st.checkbox("unsure", prev.get("unsure", False))
-        note = st.text_input("note (optional)", prev.get("note", ""))
-        if not st.form_submit_button("Save and next", type="primary"):
+        dr = c1.radio("Bij ja: richting", DIRECTIONS, index=idx(DIRECTIONS, prev.get("direction")), format_func=nl)
+        kd = c2.radio("Bij ja: soort verleden", KINDS, index=idx(KINDS, prev.get("kind")), format_func=nl)
+        past = st.text_input("Bij ja: welk verleden (een paar woorden)", prev.get("past", ""))
+        unsure = st.checkbox("twijfel", prev.get("unsure", False))
+        note = st.text_input("opmerking (optioneel)", prev.get("note", ""))
+        if not st.form_submit_button("Opslaan en volgende", type="primary"):
             return None
     if a is None:
-        st.error("Choose yes or no.")
+        st.error("Kies ja of nee.")
         return None
     if a == "yes" and (dr is None or kd is None):
-        st.error("With yes, also choose direction and kind of past.")
+        st.error("Kies bij ja ook de richting en het soort verleden.")
         return None
     yes = a == "yes"
     return {"analogy": a, "direction": dr if yes else "", "kind": kd if yes else "",
@@ -90,10 +98,10 @@ def main():
     items, asg, coders = load()
     by_key = {c.lower(): c for c in coders}
     coder = by_key.get(st.query_params.get("coder", "").lower())
-    st.title("Analogies with the past")
+    st.title("Vergelijkingen met het verleden")
     if coder is None:
         st.markdown(INTRO)
-        coder = st.selectbox("Who are you?", coders, index=None)
+        coder = st.selectbox("Wie ben je?", coders, index=None)
         if coder is None:
             return
         st.query_params["coder"] = coder.lower()   # the link now remembers who you are
@@ -104,8 +112,8 @@ def main():
         try:
             st.session_state.done = store().read(coder)
         except Exception:
-            st.error("Could not load your saved answers (connection problem). Nothing is lost: reload this page "
-                     "in a minute.")
+            st.error("Je opgeslagen antwoorden konden niet worden geladen (verbindingsprobleem). Er is niets "
+                     "verloren: laad de pagina over een minuut opnieuw.")
             return
     done = st.session_state.done
     if "pos" not in st.session_state:
@@ -115,19 +123,19 @@ def main():
     n_done = sum(i in done for i in mine)
     if "saved" in st.session_state:
         st.toast(st.session_state.pop("saved"), icon="✅")
-    st.progress(n_done / len(mine), text=f"{coder}: {n_done} of {len(mine)} coded")
-    with st.expander("How this works"):
-        st.markdown(INTRO)
-    with st.expander("Codebook"):
+    st.progress(n_done / len(mine), text=f"{coder}: {n_done} van {len(mine)} gedaan")
+    with st.sidebar:
         st.markdown(CODEBOOK)
+        with st.expander("Hoe werkt dit?"):
+            st.markdown(INTRO)
 
     if pos >= len(mine):
         if n_done == len(mine):
-            st.success("All done. Thank you! (You can still go back and change answers.)")
+            st.success("Klaar. Dank je wel! (Je kunt nog terug om antwoorden aan te passen.)")
         else:
             st.session_state.pos = next(k for k, i in enumerate(mine) if i not in done)
             st.rerun()
-        if st.button("← back"):
+        if st.button("← vorige"):
             st.session_state.pos = len(mine) - 1
             st.rerun()
         return
@@ -139,18 +147,18 @@ def main():
         rec = {"item_id": item_id, "coder": coder, "time": time.strftime("%Y-%m-%d %H:%M:%S"),
                "codebook": CODEBOOK_VERSION, **rec}
         try:
-            with st.spinner("saving…"):
+            with st.spinner("opslaan…"):
                 store().append(coder, rec)
         except Exception:
             # do not move on: the answer stays in the form, so clicking again retries
-            st.error("⚠️ This answer was NOT saved (connection problem). Check your internet and click "
-                     "'Save and next' again. Earlier answers are safe.")
+            st.error("⚠️ Dit antwoord is NIET opgeslagen (verbindingsprobleem). Controleer je internet en klik "
+                     "nog eens op 'Opslaan en volgende'. Eerdere antwoorden zijn veilig.")
             return
         done[item_id] = rec
-        st.session_state.saved = f"Saved ({sum(i in done for i in mine)} of {len(mine)})"
+        st.session_state.saved = f"Opgeslagen ({sum(i in done for i in mine)} van {len(mine)})"
         st.session_state.pos = next((k for k in range(pos + 1, len(mine)) if mine[k] not in done), len(mine))
         st.rerun()
-    if pos > 0 and st.button("← back"):
+    if pos > 0 and st.button("← vorige"):
         st.session_state.pos = pos - 1
         st.rerun()
 
