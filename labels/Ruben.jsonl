@@ -12,3 +12,4 @@
 {"item_id": "S0004", "coder": "Ruben", "time": "2026-10-09 12:34:50", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "pinksterdagen", "unsure": false, "note": ""}
 {"item_id": "S0088", "coder": "Ruben", "time": "2026-10-09 12:35:01", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0439", "coder": "Ruben", "time": "2026-10-09 12:35:23", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "named_event", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0247", "coder": "Ruben", "time": "2026-10-09 12:35:36", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "Wijster", "unsure": false, "note": ""}
