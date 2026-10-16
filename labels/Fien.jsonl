@@ -104,3 +104,4 @@
 {"item_id": "S0142", "coder": "Fien", "time": "2026-10-16 10:38:39", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0148", "coder": "Fien", "time": "2026-10-16 10:38:54", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0459", "coder": "Fien", "time": "2026-10-16 10:39:04", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0611", "coder": "Fien", "time": "2026-10-16 10:39:48", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "herinnert aan gebeurtenis uit 1983", "unsure": false, "note": ""}
