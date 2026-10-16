@@ -32,3 +32,4 @@
 {"item_id": "S0364", "coder": "Fien", "time": "2026-10-16 08:48:53", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "weer als op 31 januari", "unsure": true, "note": "verwijzing naar datum of periode?"}
 {"item_id": "S0899", "coder": "Fien", "time": "2026-10-16 08:49:24", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0410", "coder": "Fien", "time": "2026-10-16 08:49:36", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0338", "coder": "Fien", "time": "2026-10-16 08:50:52", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "Eerder vliegtuigongeluk", "unsure": false, "note": ""}
