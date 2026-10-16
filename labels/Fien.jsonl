@@ -5,3 +5,4 @@
 {"item_id": "S0666", "coder": "Fien", "time": "2026-10-16 08:07:35", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0541", "coder": "Fien", "time": "2026-10-16 08:08:14", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0073", "coder": "Fien", "time": "2026-10-16 08:09:56", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "series", "past": "toetreden eerdere schepelingen", "unsure": false, "note": ""}
+{"item_id": "S0786", "coder": "Fien", "time": "2026-10-16 08:10:55", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "eerdere reddingsactie", "unsure": true, "note": "specifieke precedent niet duidelijk"}
