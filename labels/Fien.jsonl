@@ -158,3 +158,4 @@
 {"item_id": "S0140", "coder": "Fien", "time": "2026-10-25 08:50:51", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "general_period", "past": "bevrijding Duitsland", "unsure": false, "note": ""}
 {"item_id": "S0487", "coder": "Fien", "time": "2026-10-25 09:27:11", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "whole_past", "past": "", "unsure": true, "note": ""}
 {"item_id": "S0451", "coder": "Fien", "time": "2026-10-25 09:27:41", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0012", "coder": "Fien", "time": "2026-10-25 09:28:15", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
