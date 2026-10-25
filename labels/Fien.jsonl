@@ -192,3 +192,4 @@
 {"item_id": "S0768", "coder": "Fien", "time": "2026-10-25 09:57:19", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0867", "coder": "Fien", "time": "2026-10-25 09:57:39", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0053", "coder": "Fien", "time": "2026-10-25 09:59:26", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "evacuatie 1944", "unsure": true, "note": "twijfel richting, gelijkenis (ook een evacuatie) of breuk (doch)"}
+{"item_id": "S0053", "coder": "Fien", "time": "2026-10-25 09:59:47", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "evacuatie 1944", "unsure": true, "note": "twijfel richting, gelijkenis (ook een evacuatie) of breuk (doch)"}
