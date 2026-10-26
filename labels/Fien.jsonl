@@ -315,3 +315,4 @@
 {"item_id": "S0260", "coder": "Fien", "time": "2026-10-26 10:06:54", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0892", "coder": "Fien", "time": "2026-10-26 10:08:15", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": "niet in de zin zelf"}
 {"item_id": "S0276", "coder": "Fien", "time": "2026-10-26 10:08:34", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0550", "coder": "Fien", "time": "2026-10-26 10:11:38", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "vliegtuigramp Tenerife  1977", "unsure": true, "note": "geschiedenis van spoedprocedure?"}
