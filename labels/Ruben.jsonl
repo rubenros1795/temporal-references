@@ -203,3 +203,4 @@
 {"item_id": "S0393", "coder": "Ruben", "time": "2026-10-26 10:20:11", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "series", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0341", "coder": "Ruben", "time": "2026-10-26 10:20:20", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0610", "coder": "Ruben", "time": "2026-10-26 10:20:29", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0610", "coder": "Ruben", "time": "2026-10-26 10:21:08", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "Oversteek oceaan Lindberg, 1927", "unsure": false, "note": ""}
