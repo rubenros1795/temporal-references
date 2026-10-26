@@ -293,3 +293,4 @@
 {"item_id": "S0006", "coder": "Fien", "time": "2026-10-26 09:52:07", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0719", "coder": "Fien", "time": "2026-10-26 09:52:33", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "general_period", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0887", "coder": "Fien", "time": "2026-10-26 09:55:55", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "regeling oorlogsslachtoffers", "unsure": true, "note": "twijfel richting"}
+{"item_id": "S0001", "coder": "Fien", "time": "2026-10-26 09:56:15", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
