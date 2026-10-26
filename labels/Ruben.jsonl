@@ -239,3 +239,4 @@
 {"item_id": "S0883", "coder": "Ruben", "time": "2026-10-26 10:54:42", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "val van Antwerpen", "unsure": false, "note": ""}
 {"item_id": "S0053", "coder": "Ruben", "time": "2026-10-26 10:54:50", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0517", "coder": "Ruben", "time": "2026-10-26 10:54:57", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0388", "coder": "Ruben", "time": "2026-10-26 10:55:16", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "series", "past": "", "unsure": false, "note": ""}
