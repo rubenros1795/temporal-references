@@ -289,3 +289,4 @@
 {"item_id": "S0626", "coder": "Fien", "time": "2026-10-26 09:18:11", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": "verleden als oorzaak"}
 {"item_id": "S0405", "coder": "Fien", "time": "2026-10-26 09:19:03", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "named_event", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0780", "coder": "Fien", "time": "2026-10-26 09:46:33", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "general_period", "past": "sinds lang", "unsure": true, "note": "oorzaak?"}
+{"item_id": "S0780", "coder": "Fien", "time": "2026-10-26 09:46:40", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "general_period", "past": "sinds lang", "unsure": true, "note": "oorzaak?"}
