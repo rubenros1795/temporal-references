@@ -291,3 +291,4 @@
 {"item_id": "S0780", "coder": "Fien", "time": "2026-10-26 09:46:33", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "general_period", "past": "sinds lang", "unsure": true, "note": "oorzaak?"}
 {"item_id": "S0780", "coder": "Fien", "time": "2026-10-26 09:46:40", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "general_period", "past": "sinds lang", "unsure": true, "note": "oorzaak?"}
 {"item_id": "S0006", "coder": "Fien", "time": "2026-10-26 09:52:07", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0719", "coder": "Fien", "time": "2026-10-26 09:52:33", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "general_period", "past": "", "unsure": false, "note": ""}
