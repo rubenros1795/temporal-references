@@ -409,3 +409,4 @@
 {"item_id": "S0700", "coder": "Ruben", "time": "2026-10-26 12:49:25", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0700", "coder": "Ruben", "time": "2026-10-26 12:49:50", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "Hollandseveld, maar niet in target zin", "unsure": false, "note": ""}
 {"item_id": "S0913", "coder": "Ruben", "time": "2026-10-26 12:50:03", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "named_event", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0141", "coder": "Ruben", "time": "2026-10-26 12:50:09", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
