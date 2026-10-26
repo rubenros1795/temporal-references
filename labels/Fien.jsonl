@@ -286,3 +286,4 @@
 {"item_id": "S0600", "coder": "Fien", "time": "2026-10-26 09:16:38", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "vergoeding oorlogsslachtoffers", "unsure": true, "note": ""}
 {"item_id": "S0810", "coder": "Fien", "time": "2026-10-26 09:16:56", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0834", "coder": "Fien", "time": "2026-10-26 09:17:10", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0626", "coder": "Fien", "time": "2026-10-26 09:18:11", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": "verleden als oorzaak"}
