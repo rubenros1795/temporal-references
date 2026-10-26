@@ -233,3 +233,4 @@
 {"item_id": "S0930", "coder": "Ruben", "time": "2026-10-26 10:49:34", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0950", "coder": "Ruben", "time": "2026-10-26 10:49:44", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0513", "coder": "Ruben", "time": "2026-10-26 10:50:03", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0150", "coder": "Ruben", "time": "2026-10-26 10:54:05", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "", "unsure": false, "note": ""}
