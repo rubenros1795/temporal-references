@@ -518,3 +518,4 @@
 {"item_id": "S0183", "coder": "Fien", "time": "2026-10-27 12:26:33", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": true, "note": ""}
 {"item_id": "S0232", "coder": "Fien", "time": "2026-10-27 12:29:33", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "hoogwater 1920", "unsure": true, "note": ""}
 {"item_id": "S0574", "coder": "Fien", "time": "2026-10-27 12:29:50", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0418", "coder": "Fien", "time": "2026-10-27 12:30:01", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
