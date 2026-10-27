@@ -515,3 +515,4 @@
 {"item_id": "S0588", "coder": "Fien", "time": "2026-10-27 12:24:54", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0524", "coder": "Fien", "time": "2026-10-27 12:25:39", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "herverkaveling Walcheren", "unsure": false, "note": ""}
 {"item_id": "S0733", "coder": "Fien", "time": "2026-10-27 12:25:53", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0183", "coder": "Fien", "time": "2026-10-27 12:26:33", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": true, "note": ""}
