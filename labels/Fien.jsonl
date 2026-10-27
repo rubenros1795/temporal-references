@@ -342,3 +342,4 @@
 {"item_id": "S0586", "coder": "Fien", "time": "2026-10-27 08:07:08", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0310", "coder": "Fien", "time": "2026-10-27 08:08:14", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "named_event", "past": "schadevergoeding oorlog", "unsure": false, "note": ""}
 {"item_id": "S0310", "coder": "Fien", "time": "2026-10-27 08:08:34", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "named_event", "past": "schadevergoeding oorlog", "unsure": false, "note": ""}
+{"item_id": "S0871", "coder": "Fien", "time": "2026-10-27 08:10:31", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "general_period", "past": "Duitse eenheid", "unsure": true, "note": ""}
