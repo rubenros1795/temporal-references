@@ -456,3 +456,4 @@
 {"item_id": "S0138", "coder": "Fien", "time": "2026-10-27 11:38:16", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0568", "coder": "Fien", "time": "2026-10-27 11:38:28", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0024", "coder": "Fien", "time": "2026-10-27 11:39:00", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "general_period", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0736", "coder": "Fien", "time": "2026-10-27 11:40:29", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "St Elisabethsvloed 1421", "unsure": true, "note": ""}
