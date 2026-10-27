@@ -438,3 +438,4 @@
 {"item_id": "S0913", "coder": "Fien", "time": "2026-10-27 10:31:17", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "named_event", "past": "ernstige ongeluk tot voor crisis", "unsure": true, "note": ""}
 {"item_id": "S0303", "coder": "Fien", "time": "2026-10-27 10:33:12", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "whole_past", "past": "", "unsure": true, "note": ""}
 {"item_id": "S0502", "coder": "Fien", "time": "2026-10-27 10:34:53", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0388", "coder": "Fien", "time": "2026-10-27 10:35:08", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
