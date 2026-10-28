@@ -506,3 +506,4 @@
 {"item_id": "S0624", "coder": "Ruben", "time": "2026-10-28 15:10:39", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "series", "past": "de stormramp van februari 1990, de aardbeving in Limburg in juli van dit jaar", "unsure": true, "note": "Bijlmerramp impliciet"}
 {"item_id": "S0189", "coder": "Ruben", "time": "2026-10-28 15:12:54", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0024", "coder": "Ruben", "time": "2026-10-28 15:15:57", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "general_period", "past": "onder de Duitsers", "unsure": false, "note": ""}
+{"item_id": "S0524", "coder": "Ruben", "time": "2026-10-28 15:16:52", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "ervaringen op Walcheren", "unsure": false, "note": ""}
