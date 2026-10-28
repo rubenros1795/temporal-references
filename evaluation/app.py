@@ -94,6 +94,23 @@ def answer_form(key, prev):
             "past": past.strip() if yes else "", "unsure": unsure, "note": note.strip()}
 
 
+def navigator(mine, done, pos):
+    """All sentences of the list as numbered pills, coloured by answer; clicking one opens it."""
+    def mark(k):
+        r = done.get(mine[k])
+        dot = "⚪" if r is None else "🟢" if r["analogy"] == "yes" else "🔴"
+        return f"{dot} {k + 1}{'?' if r and r.get('unsure') else ''}"
+
+    def jump():
+        if st.session_state.nav is not None:
+            st.session_state.pos = st.session_state.nav
+
+    st.session_state.nav = pos if pos < len(mine) else None   # keep the highlighted pill on the current sentence
+    with st.expander("Overzicht: 🟢 ja · 🔴 nee · ⚪ nog niet · ? twijfel (klik om naar een zin te gaan)"):
+        st.pills("Ga naar zin", list(range(len(mine))), format_func=mark, key="nav", on_change=jump,
+                 label_visibility="collapsed")
+
+
 def main():
     items, asg, coders = load()
     by_key = {c.lower(): c for c in coders}
@@ -124,6 +141,7 @@ def main():
     if "saved" in st.session_state:
         st.toast(st.session_state.pop("saved"), icon="✅")
     st.progress(n_done / len(mine), text=f"{coder}: {n_done} van {len(mine)} gedaan")
+    navigator(mine, done, pos)
     with st.sidebar:
         st.markdown(CODEBOOK)
         with st.expander("Hoe werkt dit?"):
