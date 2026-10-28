@@ -500,3 +500,4 @@
 {"item_id": "S0900", "coder": "Ruben", "time": "2026-10-26 13:19:40", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0832", "coder": "Ruben", "time": "2026-10-26 13:19:51", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "series", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0832", "coder": "Ruben", "time": "2026-10-28 15:03:29", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "eind van de jaren zestig", "unsure": false, "note": ""}
+{"item_id": "S0348", "coder": "Ruben", "time": "2026-10-28 15:04:10", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "series", "past": "gijzelingen in Wijster en Amsterdam in 75", "unsure": false, "note": ""}
