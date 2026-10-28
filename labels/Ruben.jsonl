@@ -503,3 +503,4 @@
 {"item_id": "S0348", "coder": "Ruben", "time": "2026-10-28 15:04:10", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "series", "past": "gijzelingen in Wijster en Amsterdam in 75", "unsure": false, "note": ""}
 {"item_id": "S0632", "coder": "Ruben", "time": "2026-10-28 15:08:31", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "whole_past", "past": "vroeger", "unsure": false, "note": ""}
 {"item_id": "S0897", "coder": "Ruben", "time": "2026-10-28 15:08:50", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "december 1975", "unsure": false, "note": ""}
+{"item_id": "S0624", "coder": "Ruben", "time": "2026-10-28 15:10:39", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "series", "past": "de stormramp van februari 1990, de aardbeving in Limburg in juli van dit jaar", "unsure": true, "note": "Bijlmerramp impliciet"}
