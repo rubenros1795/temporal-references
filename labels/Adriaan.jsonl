@@ -372,3 +372,4 @@
 {"item_id": "S0227", "coder": "Adriaan", "time": "2026-11-16 21:45:40", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0521", "coder": "Adriaan", "time": "2026-11-16 21:45:54", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0625", "coder": "Adriaan", "time": "2026-11-16 21:46:54", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "general_period", "past": "Kolonialisatie van Indonesië", "unsure": false, "note": ""}
+{"item_id": "S0850", "coder": "Adriaan", "time": "2026-11-16 21:48:09", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "Challengerramp 1986", "unsure": false, "note": ""}
