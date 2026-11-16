@@ -269,3 +269,4 @@
 {"item_id": "S0087", "coder": "Adriaan", "time": "2026-11-16 16:36:18", "codebook": "dab85db0", "analogy": "yes", "direction": "rupture", "kind": "series", "past": "Eerdere spoorwegongevallen", "unsure": false, "note": ""}
 {"item_id": "S0435", "coder": "Adriaan", "time": "2026-11-16 16:36:28", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0139", "coder": "Adriaan", "time": "2026-11-16 16:36:49", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0140", "coder": "Adriaan", "time": "2026-11-16 16:37:36", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "Einde Tweede Wereldoorlog", "unsure": false, "note": ""}
