@@ -353,3 +353,4 @@
 {"item_id": "S0960", "coder": "Adriaan", "time": "2026-11-16 21:39:00", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0797", "coder": "Adriaan", "time": "2026-11-16 21:39:17", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0671", "coder": "Adriaan", "time": "2026-11-16 21:39:26", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "S0035", "coder": "Adriaan", "time": "2026-11-16 21:40:22", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "whole_past", "past": "Nederlandse karaktertrek", "unsure": false, "note": ""}
