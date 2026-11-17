@@ -469,3 +469,4 @@
 {"item_id": "S0083", "coder": "Adriaan", "time": "2026-11-17 08:40:04", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0270", "coder": "Adriaan", "time": "2026-11-17 08:40:25", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "S0503", "coder": "Adriaan", "time": "2026-11-17 08:42:58", "codebook": "dab85db0", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "Vliegramp Lockerbie 1988", "unsure": false, "note": "Slachtoffers van Lockerbieramp solidair met slachtoffers Bijlmerramp."}
+{"item_id": "S0178", "coder": "Adriaan", "time": "2026-11-17 08:43:44", "codebook": "dab85db0", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": true, "note": ""}
