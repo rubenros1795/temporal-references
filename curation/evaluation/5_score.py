@@ -1,7 +1,7 @@
 """
 Score the cascade against the hand codes.
 
-    .venv_annotator/bin/python evaluation/5_score.py
+    .venv_annotator/bin/python curation/evaluation/5_score.py
 
 Gold label per item: the adjudicator's decision if there is one; otherwise the agreed answer of the two coders
 (double-coded items) or the single coder's answer. Until adjudication, a disagreement counts as half a yes and a
@@ -12,7 +12,7 @@ real analogies is drawn from its Beta posterior (Jeffreys prior; unlike a bootst
 still contributes uncertainty), the split of those over eras from a Dirichlet, and for two-phase strata (E2)
 the stratum size from the phase-1 detector counts. 20,000 draws.
 
-Writes evaluation/results/report.md and gold.csv.
+Writes curation/evaluation/results/report.md and gold.csv.
 """
 import json
 import sys

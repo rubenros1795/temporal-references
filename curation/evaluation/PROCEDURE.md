@@ -5,7 +5,7 @@ cascade. Scripts: `strata.py`, `1_run_detector.py`, `2_make_sample.py`, `5_score
 
 ## 1. What is evaluated
 
-The cascade (`2_extraction/B_cascade`) decides for every crisis sentence whether it holds an **analogy**: the
+The cascade (`2_cascade`) decides for every crisis sentence whether it holds an **analogy**: the
 TARGET sentence sets the present beside a past from before the crisis began. It does so in steps:
 
 ```
@@ -196,4 +196,4 @@ direction and kind equal the gold ones, and a confusion table for kind.
 - The adjudicator is also a coder; section 8 shows whether that matters.
 - Per crisis the sample is too small; era is the finest level with usable intervals.
 - Not evaluated here: whether the quoted span is the right one, and the named events (names, years, types),
-  which are checked in the gazetteer (`3_named_events/`).
+  which are checked in the gazetteer (`pipeline/3_named_events/`).

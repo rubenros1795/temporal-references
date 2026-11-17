@@ -12,7 +12,7 @@ finished by then are a random sample of the list, and 2_make_sample.py uses exac
 --zero-shot drops the cascade's few-shots (about 12k tokens), keeping the question and its definitions. With a
 different model (--url pointing at another server) this gives a detector that shares little with the screen.
 
-    timeout 30m .venv_annotator/bin/python evaluation/1_run_detector.py --url http://127.0.0.1:8082 --zero-shot \
+    timeout 30m .venv_annotator/bin/python curation/evaluation/1_run_detector.py --url http://127.0.0.1:8082 --zero-shot \
         --model-name "Qwen3-14B" > logs/eval_detector.log 2>&1
 """
 import argparse
@@ -23,7 +23,7 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import strata  # noqa: E402  (also puts the project root and B_cascade on sys.path)
+import strata  # noqa: E402  (also puts the project root and 2_cascade on sys.path)
 import config  # noqa: E402
 import prompts  # noqa: E402
 from schemas import SCHEMAS  # noqa: E402

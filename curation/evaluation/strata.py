@@ -27,10 +27,10 @@ import pandas as pd
 
 ROOT = next(p for p in Path(__file__).resolve().parents if (p / "config.py").exists())
 sys.path.insert(0, str(ROOT))
-sys.path.insert(0, str(ROOT / "2_extraction" / "B_cascade"))
+sys.path.insert(0, str(ROOT / "pipeline" / "2_cascade"))
 import config  # noqa: E402
 
-RUN = config.CASCADE_OUT / "main"
+RUN = config.GEMMA_CASCADE_OUT / "main"  # the sample was drawn from the Gemma-4 12B main run (archived)
 DETECTOR_MANIFEST = RUN / "eval_detector_manifest.csv"
 DETECTOR_JSONL = RUN / "eval_detector.jsonl"
 
@@ -51,7 +51,7 @@ def _norm(s):
 
 def dev_ids(d):
     """Sentences used while building the pipeline (never test sentences)."""
-    base = config.CASCADE_OUT
+    base = config.GEMMA_CASCADE_OUT
     dev = set((base / "excluded_ids_earlier_runs.txt").read_text().split())
     for m in base.glob("*/sample_manifest.csv"):
         if m.parent != RUN:

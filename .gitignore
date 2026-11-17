@@ -2,9 +2,17 @@
 /*
 !/.gitignore
 !/requirements.txt
-!/evaluation/
+!/curation/
+/curation/*
+!/curation/evaluation/
 # hidden from coders: model outputs per item; coder labels live on the `labels` branch
-/evaluation/data/key.csv
-/evaluation/labels/
-/evaluation/results/
+/curation/evaluation/data/key.csv
+/curation/evaluation/models/
+/curation/evaluation/labels/
+/curation/evaluation/results/
 __pycache__/
+/curation/evaluation/round2/data/key.csv
+/curation/evaluation/round2/labels/
+!/evaluation/
+/evaluation/*
+!/evaluation/app.py

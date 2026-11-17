@@ -1,10 +1,10 @@
 """
 Draw the evaluation sample from the cascade main run and give each coder one list.
 
-    timeout 30m .venv_annotator/bin/python evaluation/1_run_detector.py --url ... --zero-shot   # once, first
-    .venv_annotator/bin/python evaluation/2_make_sample.py --coders "Ruben,Fien,Adriaan" --adjudicator Ruben
+    timeout 30m .venv_annotator/bin/python curation/evaluation/1_run_detector.py --url ... --zero-shot   # once, first
+    .venv_annotator/bin/python curation/evaluation/2_make_sample.py --coders "Ruben,Fien,Adriaan" --adjudicator Ruben
 
-Writes evaluation/data/:
+Writes curation/evaluation/data/:
   items.csv        what coders see: crisis, article, context, TARGET sentence (no model output)
   key.csv          hidden: stratum, weights, era and every model output per item
   assignments.csv  item -> coder, order, double (coded by two coders)
@@ -43,7 +43,7 @@ QUOTA_NODET = {**{k: v for k, v in QUOTA.items() if not k.startswith("E")},
 def detector_split(t):
     """Sub-stratum and phase-1 counts for the screen-no sentences, from 1_run_detector.py's output."""
     if not strata.DETECTOR_JSONL.exists():
-        sys.exit("No detector output: run evaluation/1_run_detector.py first (or pass --no-detector).")
+        sys.exit("No detector output: run curation/evaluation/1_run_detector.py first (or pass --no-detector).")
     man = pd.read_csv(strata.DETECTOR_MANIFEST, dtype=str)
     det = {r["instance_id"]: r for r in map(json.loads, open(strata.DETECTOR_JSONL, encoding="utf-8"))
            if not r.get("annotation_error")}

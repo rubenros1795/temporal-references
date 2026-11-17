@@ -15,8 +15,8 @@ import requests
 LABELS = Path(__file__).resolve().parent / "labels"
 
 
-def label_file(coder):
-    return LABELS / f"{re.sub(r'[^A-Za-z0-9_-]', '_', coder)}.jsonl"
+def label_file(coder, folder=LABELS):
+    return Path(folder) / f"{re.sub(r'[^A-Za-z0-9_-]', '_', coder)}.jsonl"
 
 
 def parse(text):
@@ -40,22 +40,26 @@ def append(path, rec):
 
 
 class LocalStore:
+    def __init__(self, folder=LABELS):
+        self.folder = Path(folder)
+
     def read(self, coder):
-        return read_labels(label_file(coder))
+        return read_labels(label_file(coder, self.folder))
 
     def append(self, coder, rec):
-        append(label_file(coder), rec)
+        append(label_file(coder, self.folder), rec)
 
 
 class GitHubStore:
-    """labels/<coder>.jsonl on a branch of a GitHub repo, through the contents API (one commit per save)."""
+    """<prefix>/<coder>.jsonl on a branch of a GitHub repo, through the contents API (one commit per save).
+    Round 1 uses prefix "labels", round 2 "labels/round2"."""
 
-    def __init__(self, token, repo, branch="labels"):
-        self.repo, self.branch = repo, branch
+    def __init__(self, token, repo, branch="labels", prefix="labels"):
+        self.repo, self.branch, self.prefix = repo, branch, prefix
         self.h = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
 
     def _url(self, coder):
-        return f"https://api.github.com/repos/{self.repo}/contents/labels/{label_file(coder).name}"
+        return f"https://api.github.com/repos/{self.repo}/contents/{self.prefix}/{label_file(coder).name}"
 
     def _get(self, coder):
         r = requests.get(self._url(coder), headers=self.h, params={"ref": self.branch}, timeout=20)
