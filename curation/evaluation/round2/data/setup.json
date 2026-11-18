@@ -34,16 +34,5 @@
     "C_rejected": 15,
     "E1_cue": 20,
     "E2_nocue": 15
-  },
-  "dropped_crisis": {
-    "hindenburg": {
-      "date": "2026-11-18",
-      "items": [
-        "R080",
-        "R087",
-        "R170",
-        "R218"
-      ]
-    }
   }
 }

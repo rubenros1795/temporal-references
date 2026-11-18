@@ -12,7 +12,7 @@ decided and why, and every command needed to reproduce it. Round 1's design and 
    are **final**.
 3. **Codebook rewrite**: put the decisions into `CODEBOOK.md` with examples. Wording and examples only, **no new
    rules** after round 2 coding has started. Examples come from outside the 250 round-2 items.
-4. **Round 2**: 246 items (250 drawn; the 4 Hindenburg items dropped 2026-11-18), **all three coders code all 246**, blind (no model output, no stratum). This is the
+4. **Round 2**: 246 items, **all three coders code all 246**, blind (no model output, no stratum). This is the
    last coding round for the colleagues.
 5. **Adjudication**: Ruben decides disagreements and *twijfel* items in round 2 under the final codebook, blind
    to names and model output. Ruben also **re-checks round 1** under the final codebook (alone).
@@ -106,31 +106,33 @@ are round-1 items, so none of the 250 round-2 items.
 
 ## Round 2 sample (drawn 2026-11-17)
 
-    .venv_annotator/bin/python curation/evaluation/round2/make_sample.py          # seed 2026, reproducible
+    .venv_annotator/bin/python curation/evaluation/round2/make_sample.py          # seed 2026
 
-Population: the production cascade run `data/cascade/main` (Qwen3.6-27B), 261,646 sentences; 24,373 excluded
-(round-1 items and `strata.dev_ids`), **237,273 test sentences**. Strata in order of priority, each sentence in
+The sample in `data/` is fixed; the script refuses to redraw once `round2/labels/` holds codes.
+
+Population: the production cascade run `data/cascade/main` (Qwen3.6-27B), 260,025 sentences; 24,373 excluded
+(round-1 items and `strata.dev_ids`), **235,652 test sentences**. Strata in order of priority, each sentence in
 exactly one:
 
 | stratum | definition | likely? | size | drawn | weight |
 |---|---|---|---|---|---|
-| A_pre1940 | Qwen counts it, crisis before 1940 | likely | 1,768 | 40 | 44.2 |
+| A_pre1940 | Qwen counts it, crisis before 1940 | likely | 1,734 | 39 | 44.5 |
 | A_1940_1969 | Qwen counts it, 1940–69 | likely | 2,017 | 40 | 50.4 |
 | A_1970_plus | Qwen counts it, 1970 and later (incl. 1995 floods) | likely | 2,211 | 40 | 55.3 |
-| G_gemma | not counted by Qwen, counted by the Gemma-4 12B run | likely | 2,410 | 45 | 53.6 |
-| B_split | verifiers disagree, or both yes with quote outside TARGET | likely | 2,169 | 35 | 62.0 |
-| C_rejected | screen yes, both verifiers no | other | 6,029 | 15 | 401.9 |
-| E1_cue | screen no, past cue in TARGET (`strata.CUE`) | other | 19,313 | 20 | 965.6 |
-| E2_nocue | screen no, no cue | other | 201,356 | 15 | 13,423.7 |
+| G_gemma | not counted by Qwen, counted by the Gemma-4 12B run | likely | 2,380 | 43 | 55.3 |
+| B_split | verifiers disagree, or both yes with quote outside TARGET | likely | 2,163 | 35 | 61.8 |
+| C_rejected | screen yes, both verifiers no | other | 6,020 | 15 | 401.3 |
+| E1_cue | screen no, past cue in TARGET (`strata.CUE`) | other | 19,129 | 20 | 956.5 |
+| E2_nocue | screen no, no cue | other | 199,998 | 14 | 14,285.6 |
 
-Expect roughly 90 real analogies among the 200 likely items (by round-1 precision). All 31 crises appear,
-including four not in round 1 (Praag, R101, rivieren1995, Los Alfaques); eras 77 / 89 / 84 items.
+Expect roughly 90 real analogies among the 197 likely items (by round-1 precision). All 30 crises appear,
+including four not in round 1 (Praag, R101, rivieren1995, Los Alfaques); eras 73 / 89 / 84 items.
 
 Files in `data/`:
 
-- `items.csv`: what coders see (crisis, newspaper, date, context, TARGET); ids R001–R250 without R080, R087, R170, R218 (Hindenburg, dropped 2026-11-18 with the crisis; stratum sizes and weights in key.csv and setup.json recomputed without it);
+- `items.csv`: what coders see (crisis, newspaper, date, context, TARGET); ids R001–R246;
 - `key.csv`: stratum, size, weight and Qwen's output per item (**local only**, in `.gitignore`);
-- `assignments.csv`: every coder × every item, same order for all coders (the shuffled R001–R250 order);
+- `assignments.csv`: every coder × every item, same order for all coders (the shuffled R001–R246 order);
 - `setup.json`: coders, adjudicator, seed, run, stratum sizes, quota.
 
 Do not redraw once coding has started (the script refuses when `round2/labels/` holds codes).
