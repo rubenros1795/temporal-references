@@ -122,7 +122,7 @@ Files in `data/`:
 
 - `items.csv`: what coders see (crisis, newspaper, date, context, TARGET); ids R001–R250;
 - `key.csv`: stratum, size, weight and Qwen's output per item (**local only**, in `.gitignore`);
-- `assignments.csv`: every coder × every item, own random order per coder;
+- `assignments.csv`: every coder × every item, same order for all coders (the shuffled R001–R250 order);
 - `setup.json`: coders, adjudicator, seed, run, stratum sizes, quota.
 
 Do not redraw once coding has started (the script refuses when `round2/labels/` holds codes).

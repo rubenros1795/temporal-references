@@ -21,7 +21,7 @@ Excluded: round-1 items (all 965), sentences used while building the cascade (st
 excluded ids, few-shot examples).
 
 Writes curation/evaluation/round2/data/: items.csv (what coders see), key.csv (hidden: stratum, weight, model
-output), assignments.csv (every coder codes every item, own random order), setup.json ("open": false: the app
+output), assignments.csv (every coder codes every item, in the same order), setup.json ("open": false: the app
 shows a notice until it is set to true, once the codebook is final). Refuses to overwrite once
 round2/labels/ holds codes.
 """
@@ -111,8 +111,8 @@ def main():
     s["likely"] = s.stratum.str.startswith(LIKELY)
 
     asg = pd.concat([pd.DataFrame({"item_id": s.item_id, "coder": c, "double": True,
-                                   "order": pd.Series(range(1, len(s) + 1)).sample(frac=1, random_state=args.seed + k).values})
-                     for k, c in enumerate(coders)])
+                                   "order": range(1, len(s) + 1)})
+                     for c in coders])  # same items, same (already shuffled) order for every coder
 
     DATA.mkdir(parents=True, exist_ok=True)
     s.rename(columns={"date": "article_date", "paper_title": "newspaper"})[
