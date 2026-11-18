@@ -10,3 +10,4 @@
 {"item_id": "R010", "coder": "Adriaan", "time": "2026-11-18 12:48:14", "codebook": "a6110cb0", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R011", "coder": "Adriaan", "time": "2026-11-18 12:49:56", "codebook": "a6110cb0", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R012", "coder": "Adriaan", "time": "2026-11-18 12:50:43", "codebook": "a6110cb0", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "R013", "coder": "Adriaan", "time": "2026-11-18 12:51:36", "codebook": "a6110cb0", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "1918", "unsure": false, "note": ""}
