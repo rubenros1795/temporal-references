@@ -17,9 +17,11 @@ crisis**. Daarvoor moeten drie dingen kloppen.
    dat alleen achtergrond is (biografie, oorzaak, datum, geschiedenis), zonder dat het naast het heden wordt gezet,
    telt **niet**. Het gaat dan namelijk niet om een vergelijking.
 3. **Het heden hoort bij de crisis.** Het heden is de crisis of een onderdeel ervan: het verloop, de gevolgen, de
-   schade, de hulp, de reacties en de betrokken mensen en instanties. Er moet een aantoonbaar verband met de crisis
-   zijn. Een vergelijking over een ander onderwerp in hetzelfde artikel (een verkiezingsuitslag, een andere oorlog)
-   telt **niet**.
+   schade, de hulp, de reacties en de betrokken mensen en instanties. Het verband met de crisis moet **aannemelijk**
+   zijn: een lezer ziet het uit de zin en de context, zonder er zelf veel bij te moeten denken. Moet je meerdere
+   stappen redeneren om van het heden in de zin bij de crisis uit te komen, dan is het **nee**. Een vergelijking over
+   een ander onderwerp in hetzelfde artikel (een verkiezingsuitslag, een andere oorlog) telt **niet**. **Bij twijfel
+   over het verband: nee** (en vink *twijfel* aan).
 
 **Waar staat de vergelijking?** De gemarkeerde zin moet deel uitmaken van de vergelijking: hij bevat de
 vergelijkende woorden, of het heden of het verleden dat vergeleken wordt. De rest mag in de zin ervoor of erna
@@ -36,7 +38,7 @@ Het verleden kan voorkomen als
 - er geen verleden is;
 - een verleden alleen achtergrond is (oorzaak, datum, biografie, geschiedenis) en niet naast het heden wordt gezet;
 - alleen een herhalingswoord ("weer", "opnieuw") naar een eerder geval wijst dat nergens in de tekst staat;
-- het heden niet de crisis of een onderdeel ervan is;
+- het heden niet de crisis of een onderdeel ervan is, of het verband met de crisis niet aannemelijk is;
 - het "verleden" het eigen eerdere verloop van de crisis is ("gisteren", "de eerste dag van de kaping");
 - de zin vooruitkijkt ("dit kan zich herhalen");
 - de maatstaf is wat normaal of gebruikelijk is, in plaats van een eerder(e) periode, gebeurtenis of verleden
@@ -76,21 +78,46 @@ Twijfel je? Kies wat het best past en vink **twijfel** aan. Twijfelgevallen word
 - "...dat deze oorlog grooter gevolgen heeft gehad dan menige groote strijd, die vroeger is uitgevochten." (Titanic):
   het heden is de Italiaans-Turkse oorlog, niet de crisis.
 
+**Aannemelijk verband met de crisis?**
+- *ja*: "Tweede-Kamervoorzitter Deetman vroeg aandacht voor het lot van de Surinaamse gemeenschap, die *twee jaar
+  geleden ook* is getroffen door een groot vliegtuigongeluk." (Bijlmerramp): het heden zijn de getroffenen van de
+  ramp; het verband ligt voor de hand.
+- *ja*: "Generaal Gerth van Wijk is hier al even snel met zijn oordeel *als toen* hij het ministerieele besluit [...]
+  critiseerde." (Zeven Provinciën): zijn oordeel over de muiterij is een reactie op de crisis.
+- *nee*: "En *net zoals* ze dat nu hebben, hadden ze *ook toen al* goede relaties met het zakenleven [...]" (De
+  Punt): het heden is de band tussen regeringspartijen en bedrijfsleven; om daar de kaping in te zien moet je zelf
+  veel invullen.
+- *nee*: "Europa kan *nog eenmaal* het slagveld der natiën worden, maar dat zal dan tevens de laatste maal zijn."
+  (Tsjernobyl): het gaat om een toekomstige oorlog in Europa, ver van de kernramp.
+
 ## 2. Alleen bij ja
 
 **Richting**
 - *gelijkenis*: hetzelfde, weer, onveranderd sindsdien.
 - *breuk*: anders, erger, beter, nooit eerder, voor het eerst sinds.
 
+Vaak zit er allebei in: het verleden wordt naast het heden gezet als hetzelfde soort geval, maar met een ander
+verloop of een andere afloop. Kies dan **gelijkenis**. Kies *breuk* alleen als het verschil de kern van de
+vergelijking is ("erger dan", "anders dan vroeger", "nog nooit", "voor het eerst sinds").
+- "Zierikzee beleefde in 1944 *ook* een evacuatie, *doch* die hadden de Duitsers slechts gelast om een grondige
+  plundering uit te voeren." (watersnood 1953): ook een evacuatie, met een ander doel: *gelijkenis*.
+- "In juli kreeg een vrachtvliegtuig van El Al [...] de start vanaf Schiphol *ook* met een defecte motor te maken. [Het
+  toestel kon toen een veilige landing maken.]" (Bijlmerramp): hetzelfde mankement, een andere afloop: *gelijkenis*.
+- "Zo kreeg het Nederlandse Rode Kruis circa 1,5 miljoen gulden *bij de stormramp van februari 1990*, maar *bij de
+  aardbeving in Limburg* [...] zag de Europese Commissie geen aanleiding gedupeerden financieel bij te springen."
+  (Bijlmerramp): eerdere rampen als maatstaf voor de hulp nu: *gelijkenis*.
+- "Een storm, zoals nu is voorgekomen, is *heviger geweest dan we in 300 jaar gekend hebben*." (watersnood 1953): het
+  verschil is de kern: *breuk*.
+
 **Soort verleden**
 - *één gebeurtenis*: één bepaalde gebeurtenis of datum ("treinkaping Wijster", "1953").
-- *reeks*: meerdere eerdere gebeurtenissen, in het meervoud of geteld ("eerdere gijzelingen", "vorige rampen", "drie
-  keer eerder"). Er moet hier sprake zijn van een bepaalde klasse gebeurtenissen in het verleden waartegen de huidige
-  crisis wordt afgezet, of waarin de huidige crisis wordt geplaatst.
-- *hele verleden*: elk eerder moment, zonder grens ("ooit", "nog nooit", "altijd al", "de grootste ramp ooit",
-  "alle eerdere rampen"). Ook "vroeger" in algemene zin ("vroeger was dat anders").
-- *periode*: een afgebakende tijd ("de jaren dertig", "voor de oorlog", "in de crisistijd"). "Vroeger" of "toen"
-  alleen als duidelijk een bepaalde periode bedoeld is.
+- *reeks*: een klasse eerdere gebeurtenissen waartegen de huidige crisis wordt afgezet, of waarin hij wordt
+  geplaatst. Die klasse kan genoemd zijn ("eerdere gijzelingen", "vorige rampen", "drie keer eerder") of besloten
+  liggen in een overtreffende trap of "nooit": "de grootste vliegramp uit de geschiedenis" (= alle eerdere
+  vliegrampen), "nog nooit zo'n storm", "alle eerdere rampen".
+- *periode*: een tijd vóór nu ("de jaren dertig", "voor de oorlog", "in de crisistijd"), ook als die niet scherp
+  begrensd is. Ook "vroeger", "toen" of "altijd al" in algemene zin ("vroeger was dat anders", "terwijl het vroeger
+  een aaneengesloten zode vormde").
 
 **Welk verleden**: een paar woorden, bijv. "treinkaping Wijster, 1975" of "eerdere overstromingen".
 

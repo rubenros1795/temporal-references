@@ -93,8 +93,16 @@ are round-1 items, so none of the 250 round-2 items.
    or its context. Coders are not asked to supply background knowledge (S0167 → nee; S0870 → ja).
 5. **Highlighted-sentence rule.** The comparison should sit in the TARGET, but leniently: if the TARGET takes part in a
    comparison completed by the surrounding sentences, it counts (S0001 → ja).
-6. **Kind of past.** Keep the four kinds. "Grootste ramp ooit" = *hele verleden*; "vroeger" is *periode* only when a
-   bounded period is meant, otherwise *hele verleden*.
+6. **Kind of past.** ~~Keep the four kinds~~ (revised 2026-11-18, before any round-2 answer): *hele verleden* is
+   dropped, three kinds remain. "Grootste vliegramp uit de geschiedenis" usually means all earlier air crashes, so
+   superlatives and "nog nooit" are *reeks*; a general "vroeger"/"toen"/"altijd al" is *periode*. The superlative
+   itself can be recovered from the text later if needed.
+7. **Plausible link with the crisis** (added 2026-11-18). Sharpens rule 2: the link between the present in the sentence
+   and the crisis must be plausible from the sentence and context without much interpretation; when in doubt, *nee*
+   (S0746, S0179 → nee; S0338, S0749 → ja).
+8. **Direction when both apply** (added 2026-11-18). When a sentence sets a past beside the present as the same kind of
+   case but with a different course or outcome, code *gelijkenis*; *breuk* only when the difference is the point
+   ("erger dan", "nog nooit"). (S0053, S0269, S0624 → gelijkenis; S0655 context → breuk.)
 
 ## Round 2 sample (drawn 2026-11-17)
 

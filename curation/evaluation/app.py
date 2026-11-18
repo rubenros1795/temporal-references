@@ -37,7 +37,9 @@ ROUND = st.query_params.get("round", "1") if st.query_params.get("round", "1") i
 R = ROUNDS[ROUND]
 DATA = R["data"]
 DIRECTIONS = ["similarity", "rupture"]
-KINDS = ["named_event", "series", "whole_past", "general_period"]
+# round 2 drops "whole_past": "grootste ramp ooit" is a series, a general "vroeger" a period (round2/CODEBOOK.md)
+KINDS = (["named_event", "series", "general_period"] if ROUND == "2"
+         else ["named_event", "series", "whole_past", "general_period"])
 CODEBOOK = R["codebook"].read_text(encoding="utf-8")
 CODEBOOK_VERSION = hashlib.sha1(CODEBOOK.encode()).hexdigest()[:8]
 QUESTION = ("Vergelijkt de gemarkeerde zin het heden met een verleden van vóór de crisis?" if ROUND == "1" else
