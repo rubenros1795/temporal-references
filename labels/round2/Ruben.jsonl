@@ -23,3 +23,4 @@
 {"item_id": "R023", "coder": "Ruben", "time": "2026-11-18 15:55:20", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R024", "coder": "Ruben", "time": "2026-11-18 15:55:45", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": "Niet duidelijk welk verleden hier tegenover staat"}
 {"item_id": "R025", "coder": "Ruben", "time": "2026-11-18 15:56:18", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "rupture", "kind": "general_period", "past": "", "unsure": false, "note": ""}
+{"item_id": "R026", "coder": "Ruben", "time": "2026-11-18 15:56:41", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "rupture", "kind": "series", "past": "", "unsure": false, "note": ""}
