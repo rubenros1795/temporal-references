@@ -40,6 +40,8 @@ DIRECTIONS = ["similarity", "rupture"]
 KINDS = ["named_event", "series", "whole_past", "general_period"]
 CODEBOOK = R["codebook"].read_text(encoding="utf-8")
 CODEBOOK_VERSION = hashlib.sha1(CODEBOOK.encode()).hexdigest()[:8]
+QUESTION = ("Vergelijkt de gemarkeerde zin het heden met een verleden van vóór de crisis?" if ROUND == "1" else
+            "Maakt de gemarkeerde zin deel uit van een vergelijking tussen de crisis en een verleden van vóór de crisis?")
 INTRO = R["intro"].read_text(encoding="utf-8").split("\n", 1)[1].strip()
 
 st.set_page_config(page_title="Vergelijkingen met het verleden", layout="centered")
@@ -84,7 +86,7 @@ def answer_form(key, prev):
     idx = lambda opts, v: opts.index(v) if v in opts else None
     nl = NL.get
     with st.form(key):
-        a = st.radio("Vergelijkt de gemarkeerde zin het heden met een verleden van vóór de crisis?", ["yes", "no"],
+        a = st.radio(QUESTION, ["yes", "no"],
                      index=idx(["yes", "no"], prev.get("analogy")), horizontal=True, format_func=nl)
         c1, c2 = st.columns(2)
         dr = c1.radio("Bij ja: richting", DIRECTIONS, index=idx(DIRECTIONS, prev.get("direction")), format_func=nl)

@@ -9,13 +9,13 @@ crisis**. Daarvoor moeten drie dingen kloppen.
 
 1. **Er is een duidelijk verleden.** Dat kan een bepaalde gebeurtenis, datum of periode zijn ("Wijster", "1953",
    "voor de oorlog"), of het verleden in het algemeen ("vroeger", "ooit", "nog nooit"). Een herhalingswoord alleen
-   ("weer", "opnieuw", "andermaal", "ditmaal") is **niet** genoeg: het eerdere geval moet in de zin of de context
-   staan. Je hoeft geen achtergrondkennis aan te vullen.
+   ("weer", "opnieuw", "andermaal", "ditmaal") is **niet** genoeg: er moet duidelijk sprake zijn van een verleden dat
+   vergeleken wordt met de crisis in het heden.
 2. **Het verleden staat in verband met het heden.** Het verleden is een gelijkenis, herhaling, les, precedent,
    maatstaf of contrast voor het heden. Een vergelijkingswoord ("zoals", "net als", "erger dan") is niet nodig:
-   een eerdere gebeurtenis die naast de crisis wordt gezet, telt ("gezien de ervaringen op Walcheren"). Een verleden
+   een eerdere gebeurtenis die naast de crisis wordt gezet, telt ook ("gezien de ervaringen op Walcheren"). Een verleden
    dat alleen achtergrond is (biografie, oorzaak, datum, geschiedenis), zonder dat het naast het heden wordt gezet,
-   telt **niet**.
+   telt **niet**. Het gaat dan namelijk niet om een vergelijking.
 3. **Het heden hoort bij de crisis.** Het heden is de crisis of een onderdeel ervan: het verloop, de gevolgen, de
    schade, de hulp, de reacties en de betrokken mensen en instanties. Er moet een aantoonbaar verband met de crisis
    zijn. Een vergelijking over een ander onderwerp in hetzelfde artikel (een verkiezingsuitslag, een andere oorlog)
@@ -23,7 +23,7 @@ crisis**. Daarvoor moeten drie dingen kloppen.
 
 **Waar staat de vergelijking?** De gemarkeerde zin moet deel uitmaken van de vergelijking: hij bevat de
 vergelijkende woorden, of het heden of het verleden dat vergeleken wordt. De rest mag in de zin ervoor of erna
-staan. Wees hier ruimhartig.
+staan. Wees hier flexibel.
 
 Het verleden kan voorkomen als
 - gelijk of een herhaling ("net als in 1953", "doet denken aan Wijster", "ook nu weer", na een zin over een eerder
@@ -39,7 +39,8 @@ Het verleden kan voorkomen als
 - het heden niet de crisis of een onderdeel ervan is;
 - het "verleden" het eigen eerdere verloop van de crisis is ("gisteren", "de eerste dag van de kaping");
 - de zin vooruitkijkt ("dit kan zich herhalen");
-- de maatstaf is wat normaal of gebruikelijk is ("drukker dan normaal", "zoals gebruikelijk");
+- de maatstaf is wat normaal of gebruikelijk is, in plaats van een eerder(e) periode, gebeurtenis of verleden
+  ("drukker dan normaal", "zoals gebruikelijk");
 - vergeleken wordt met een andere plek nu ("ook in België");
 - de vergelijking helemaal in de context staat en de gemarkeerde zin er geen deel van uitmaakt.
 
@@ -83,8 +84,9 @@ Twijfel je? Kies wat het best past en vink **twijfel** aan. Twijfelgevallen word
 
 **Soort verleden**
 - *één gebeurtenis*: één bepaalde gebeurtenis of datum ("treinkaping Wijster", "1953").
-- *reeks*: meerdere eerdere gevallen, in het meervoud of geteld ("eerdere gijzelingen", "vorige rampen", "drie keer
-  eerder").
+- *reeks*: meerdere eerdere gebeurtenissen, in het meervoud of geteld ("eerdere gijzelingen", "vorige rampen", "drie
+  keer eerder"). Er moet hier sprake zijn van een bepaalde klasse gebeurtenissen in het verleden waartegen de huidige
+  crisis wordt afgezet, of waarin de huidige crisis wordt geplaatst.
 - *hele verleden*: elk eerder moment, zonder grens ("ooit", "nog nooit", "altijd al", "de grootste ramp ooit",
   "alle eerdere rampen"). Ook "vroeger" in algemene zin ("vroeger was dat anders").
 - *periode*: een afgebakende tijd ("de jaren dertig", "voor de oorlog", "in de crisistijd"). "Vroeger" of "toen"
