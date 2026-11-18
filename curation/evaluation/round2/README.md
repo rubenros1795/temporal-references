@@ -77,7 +77,24 @@ Record the decisions here, under "Decisions", before rewriting `CODEBOOK.md`.
 
 ## Decisions (2026-11-18)
 
-*To be filled in after the meeting.*
+Settled by Ruben on 2026-11-18 (instead of in the meeting). Put into `CODEBOOK.md` the same day; the examples there
+are round-1 items, so none of the 250 round-2 items.
+
+1. **Named or compared?** A comparison word is not needed: an earlier event placed beside the crisis counts (as
+   parallel, lesson, precedent, yardstick or contrast). But it must be set beside the present: a past that is only
+   background (biography, cause, date) stays *nee* (S0212, Mulder's Wijster legend). S0524, S0925, S0291 → ja.
+2. **Present = the crisis?** There must be a demonstrable link between the present in the sentence and the crisis
+   (the crisis or an element of it: course, consequences, damage, aid, reactions, people involved). Comparisons on
+   other topics in the same article are *nee* (S0463, S0757). This also filters the few articles that are not about
+   the crisis at all.
+3. **"Vroeger".** Any past is fine, including an unspecified "vroeger", but it must be compared with the present
+   crisis or an element of it (S0388, S0521 → ja).
+4. **"Weer"/"opnieuw"/"andermaal".** The word alone is not enough: the earlier case must be clear from the sentence
+   or its context. Coders are not asked to supply background knowledge (S0167 → nee; S0870 → ja).
+5. **Highlighted-sentence rule.** The comparison should sit in the TARGET, but leniently: if the TARGET takes part in a
+   comparison completed by the surrounding sentences, it counts (S0001 → ja).
+6. **Kind of past.** Keep the four kinds. "Grootste ramp ooit" = *hele verleden*; "vroeger" is *periode* only when a
+   bounded period is meant, otherwise *hele verleden*.
 
 ## Round 2 sample (drawn 2026-11-17)
 
@@ -112,9 +129,9 @@ Do not redraw once coding has started (the script refuses when `round2/labels/` 
 
 ## Still to do
 
-- [ ] Record the meeting's decisions above; rewrite `../CODEBOOK.md` (new version hash in every answer).
-- [ ] `app.py`: a round switch (read `round2/data/`, show the new codebook) and separate label files on the
-      GitHub `labels` branch, so round-2 answers do not mix with round 1. Then redeploy and send the links.
+- [x] Record the decisions above; rewrite `CODEBOOK.md` (2026-11-18; new version hash in every answer).
+- [x] `app.py`: round switch (`&round=2`, reads `round2/data/`, own label files on the `labels` branch).
+- [ ] Open round 2: set `"open": true` in `data/setup.json`, push, redeploy, send the links.
 - [ ] Pull and adjudicate round 2 (adapt `3_pull_labels.py`, `4_adjudicate.py` to the round folder).
 - [ ] Ruben re-checks round 1 under the final codebook (`../labels/_review.jsonl`), then `5_score.py` for recall.
 - [ ] Rewrite the cascade prompts (examples outside the 250), run on all candidates.

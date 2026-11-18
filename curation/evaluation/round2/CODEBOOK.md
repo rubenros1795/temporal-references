@@ -1,32 +1,79 @@
-> **Concept.** Dit codeboek wordt na het overleg van 18 november herschreven. Ronde 2 opent pas daarna.
-
 # Codeboek: vergelijkingen met het verleden
 
 Lees de **gemarkeerde zin** (de TARGET) in zijn context. De crisis en de begindatum staan erboven.
 
 ## 1. Vergelijking met het verleden? (ja / nee)
 
-**ja**: de gemarkeerde zin zelf zet het heden naast een verleden dat **vóór het begin van de crisis** ligt en
-**los staat van de crisis**. Het heden is de crisis, of de situatie die de zin beschrijft. Het verleden kan
-voorkomen als
-- gelijk of een herhaling ("weer een kaping", "net als in 1953", "doet denken aan Wijster"),
-- onveranderd sindsdien ("zoals altijd sinds de oorlog"),
-- anders of erger ("erger dan de watersnood van 1916"),
-- zonder precedent ("nog nooit eerder", "voor het eerst sinds 1961").
+**ja**: het heden wordt naast een verleden gezet dat **vóór het begin van de crisis** ligt en **los staat van de
+crisis**. Daarvoor moeten drie dingen kloppen.
 
-Impliciete vergelijkingen tellen ook.
+1. **Er is een duidelijk verleden.** Dat kan een bepaalde gebeurtenis, datum of periode zijn ("Wijster", "1953",
+   "voor de oorlog"), of het verleden in het algemeen ("vroeger", "ooit", "nog nooit"). Een herhalingswoord alleen
+   ("weer", "opnieuw", "andermaal", "ditmaal") is **niet** genoeg: het eerdere geval moet in de zin of de context
+   staan. Je hoeft geen achtergrondkennis aan te vullen.
+2. **Het verleden staat in verband met het heden.** Het verleden is een gelijkenis, herhaling, les, precedent,
+   maatstaf of contrast voor het heden. Een vergelijkingswoord ("zoals", "net als", "erger dan") is niet nodig:
+   een eerdere gebeurtenis die naast de crisis wordt gezet, telt ("gezien de ervaringen op Walcheren"). Een verleden
+   dat alleen achtergrond is (biografie, oorzaak, datum, geschiedenis), zonder dat het naast het heden wordt gezet,
+   telt **niet**.
+3. **Het heden hoort bij de crisis.** Het heden is de crisis of een onderdeel ervan: het verloop, de gevolgen, de
+   schade, de hulp, de reacties en de betrokken mensen en instanties. Er moet een aantoonbaar verband met de crisis
+   zijn. Een vergelijking over een ander onderwerp in hetzelfde artikel (een verkiezingsuitslag, een andere oorlog)
+   telt **niet**.
+
+**Waar staat de vergelijking?** De gemarkeerde zin moet deel uitmaken van de vergelijking: hij bevat de
+vergelijkende woorden, of het heden of het verleden dat vergeleken wordt. De rest mag in de zin ervoor of erna
+staan. Wees hier ruimhartig.
+
+Het verleden kan voorkomen als
+- gelijk of een herhaling ("net als in 1953", "doet denken aan Wijster", "ook nu weer", na een zin over een eerder
+  geval),
+- onveranderd sindsdien ("zoals altijd sinds de oorlog"),
+- anders, erger of beter ("erger dan de watersnood van 1916", "vroeger werden dijkwachten uitgezet; ditmaal niet"),
+- zonder precedent ("nog nooit eerder", "de grootste ramp ooit", "voor het eerst sinds 1961").
 
 **nee** als
-- er geen verleden in de zin zit;
-- een verleden alleen *genoemd* wordt (als oorzaak, datum, biografie of geschiedenis), zonder het naast het heden
-  te zetten;
+- er geen verleden is;
+- een verleden alleen achtergrond is (oorzaak, datum, biografie, geschiedenis) en niet naast het heden wordt gezet;
+- alleen een herhalingswoord ("weer", "opnieuw") naar een eerder geval wijst dat nergens in de tekst staat;
+- het heden niet de crisis of een onderdeel ervan is;
 - het "verleden" het eigen eerdere verloop van de crisis is ("gisteren", "de eerste dag van de kaping");
 - de zin vooruitkijkt ("dit kan zich herhalen");
 - de maatstaf is wat normaal of gebruikelijk is ("drukker dan normaal", "zoals gebruikelijk");
 - vergeleken wordt met een andere plek nu ("ook in België");
-- de vergelijking alleen in een zin ervoor of erna staat, niet in de gemarkeerde zin.
+- de vergelijking helemaal in de context staat en de gemarkeerde zin er geen deel van uitmaakt.
 
 Twijfel je? Kies wat het best past en vink **twijfel** aan. Twijfelgevallen worden later bekeken.
+
+### Voorbeelden
+
+**ja**
+- "Over de herverkavelingen in Zeeland werd opgemerkt, dat men, *gezien de ervaringen op Walcheren*, uiterst
+  voorzichtig moet zijn bij het doen van toezeggingen." (watersnood 1953): een eerdere gebeurtenis als les, zonder
+  vergelijkingswoord.
+- "Nou, *bij de bezetting van het Indonesisch Consulaat* hadden we gezien, dat de Nederlandse regering sneller
+  handelt als er kinderen bij betrokken zijn." (De Punt): een precedent voor de keuze bij deze kaping.
+- "Op het gemeentehuis toonde men ons afbeeldingen van *de laatste overstroming in deze buurt in 1825*."
+  (watersnood 1916): een eerdere overstroming naast de huidige gezet.
+- Ervoor: "Al eerder, bij de ramp met het vrachtschip Mont-Louis, bleek de Franse regering niet in staat adequaat te
+  reageren." Gemarkeerd: "*Ook nu weer* werd er een grove psychologische blunder begaan." (Tsjernobyl): het verleden
+  staat in de zin ervoor, de gemarkeerde zin vergelijkt.
+- "Politieke motieven hebben bij zijn benoeming *in 1956* een rol gespeeld, *zoals zij nu weer* een rol hebben
+  gespeeld bij zijn ontslag." (Telegraafrellen)
+- "Overal is het gras danig losgerukt en, *terwijl het vroeger* een aaneengesloten zode vormde, staat het nu in losse
+  plakjes." (watersnood 1916): een algemeen verleden tegenover de schade van nu.
+- "De oplossing, die na de ramp te Marcinelle *met meer klem dan ooit tevoren* wordt voorgestaan, is de
+  industrialisatie van het Vlaamse land." (Marcinelle)
+
+**nee**
+- "De contacten werden onderhouden door dr. Mulder, om wie sinds de treinkaping bij Wijster (1975) een legende van
+  deskundigheid was ontstaan." (De Punt): Wijster is hier biografie, geen vergelijking.
+- "De Nederlandse regering schijnt het *weer* op een uitputtingsslag te willen laten aankomen." (Wijster): welk
+  eerder geval bedoeld is, staat nergens in de tekst.
+- "Bij de laatste betwiste verkiezing, in Januari 1910, kreeg de liberaal er 6339." (Titanic): het heden is een
+  Engelse verkiezing, niet de crisis.
+- "...dat deze oorlog grooter gevolgen heeft gehad dan menige groote strijd, die vroeger is uitgevochten." (Titanic):
+  het heden is de Italiaans-Turkse oorlog, niet de crisis.
 
 ## 2. Alleen bij ja
 
@@ -36,14 +83,18 @@ Twijfel je? Kies wat het best past en vink **twijfel** aan. Twijfelgevallen word
 
 **Soort verleden**
 - *één gebeurtenis*: één bepaalde gebeurtenis of datum ("treinkaping Wijster", "1953").
-- *reeks*: meerdere eerdere gevallen ("eerdere gijzelingen", "vorige rampen").
-- *hele verleden*: de hele geschiedenis ("ooit", "nog nooit", "alle eerdere rampen").
-- *periode*: een afgebakend tijdperk of de situatie van vroeger ("vroeger", "de jaren dertig", "voor de oorlog").
+- *reeks*: meerdere eerdere gevallen, in het meervoud of geteld ("eerdere gijzelingen", "vorige rampen", "drie keer
+  eerder").
+- *hele verleden*: elk eerder moment, zonder grens ("ooit", "nog nooit", "altijd al", "de grootste ramp ooit",
+  "alle eerdere rampen"). Ook "vroeger" in algemene zin ("vroeger was dat anders").
+- *periode*: een afgebakende tijd ("de jaren dertig", "voor de oorlog", "in de crisistijd"). "Vroeger" of "toen"
+  alleen als duidelijk een bepaalde periode bedoeld is.
 
 **Welk verleden**: een paar woorden, bijv. "treinkaping Wijster, 1975" of "eerdere overstromingen".
 
 ## Vuistregels
-- Beoordeel alleen de gemarkeerde zin; de context is er om hem te begrijpen.
+- Lees de context om de gemarkeerde zin te begrijpen en om te zien naar welk verleden hij verwijst; de gemarkeerde
+  zin moet zelf deel van de vergelijking zijn.
 - OCR-fouten: lees eroverheen; kies niet *nee* vanwege slechte OCR.
 - "weer" of "opnieuw" over de crisis zelf (een tweede explosie op dezelfde dag) is **nee**.
 - "voor het eerst" zonder verleden ("voor het eerst sprak de minister") is **nee**; "voor het eerst sinds 1961" is
