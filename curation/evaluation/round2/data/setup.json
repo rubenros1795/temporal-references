@@ -9,21 +9,21 @@
   "adjudicator": "Ruben",
   "seed": 2026,
   "run": "data/cascade/main (Qwen3.6-27B)",
-  "test_sentences": 237273,
+  "test_sentences": 235652,
   "test_sentences_by_era": {
-    "1970_plus": 85589,
     "1940_1969": 84423,
-    "pre1940": 67261
+    "1970_plus": 85589,
+    "pre1940": 65640
   },
   "stratum_sizes": {
-    "E2_nocue": 201356,
-    "E1_cue": 19313,
-    "C_rejected": 6029,
-    "G_gemma": 2410,
+    "E2_nocue": 199998,
+    "E1_cue": 19129,
+    "C_rejected": 6020,
+    "G_gemma": 2380,
     "A_1970_plus": 2211,
-    "B_split": 2169,
+    "B_split": 2163,
     "A_1940_1969": 2017,
-    "A_pre1940": 1768
+    "A_pre1940": 1734
   },
   "quota": {
     "A_pre1940": 40,
@@ -34,5 +34,16 @@
     "C_rejected": 15,
     "E1_cue": 20,
     "E2_nocue": 15
+  },
+  "dropped_crisis": {
+    "hindenburg": {
+      "date": "2026-11-18",
+      "items": [
+        "R080",
+        "R087",
+        "R170",
+        "R218"
+      ]
+    }
   }
 }

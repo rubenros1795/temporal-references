@@ -12,7 +12,7 @@ decided and why, and every command needed to reproduce it. Round 1's design and 
    are **final**.
 3. **Codebook rewrite**: put the decisions into `CODEBOOK.md` with examples. Wording and examples only, **no new
    rules** after round 2 coding has started. Examples come from outside the 250 round-2 items.
-4. **Round 2**: 250 items, **all three coders code all 250**, blind (no model output, no stratum). This is the
+4. **Round 2**: 246 items (250 drawn; the 4 Hindenburg items dropped 2026-11-18), **all three coders code all 246**, blind (no model output, no stratum). This is the
    last coding round for the colleagues.
 5. **Adjudication**: Ruben decides disagreements and *twijfel* items in round 2 under the final codebook, blind
    to names and model output. Ruben also **re-checks round 1** under the final codebook (alone).
@@ -35,7 +35,7 @@ decided and why, and every command needed to reproduce it. Round 1's design and 
 - **Freeze the rules before coding.** If the codebook changed after round 2 was coded, the codes and the reported
   codebook would no longer match. If a rule must change anyway, round 2 is adjudicated under the final codebook
   and the agreement score is reported as agreement under the meeting's rules.
-- **Enriched but random.** About 200 of 250 items come from strata where an analogy is likely, so the agreement
+- **Enriched but random.** About 200 of the items come from strata where an analogy is likely, so the agreement
   score is about the "yes" cases that matter (round 1 was mostly easy "no"s). The items are drawn **at random
   within strata with known sizes**, not hand-picked: hand-picked items would only contain easy-to-spot analogies
   (circular for the model) and cannot give corpus-level precision or rates. Report round-2 agreement as
@@ -128,7 +128,7 @@ including four not in round 1 (Praag, R101, rivieren1995, Los Alfaques); eras 77
 
 Files in `data/`:
 
-- `items.csv`: what coders see (crisis, newspaper, date, context, TARGET); ids R001–R250;
+- `items.csv`: what coders see (crisis, newspaper, date, context, TARGET); ids R001–R250 without R080, R087, R170, R218 (Hindenburg, dropped 2026-11-18 with the crisis; stratum sizes and weights in key.csv and setup.json recomputed without it);
 - `key.csv`: stratum, size, weight and Qwen's output per item (**local only**, in `.gitignore`);
 - `assignments.csv`: every coder × every item, same order for all coders (the shuffled R001–R250 order);
 - `setup.json`: coders, adjudicator, seed, run, stratum sizes, quota.
