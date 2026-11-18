@@ -12,3 +12,4 @@
 {"item_id": "R012", "coder": "Adriaan", "time": "2026-11-18 12:50:43", "codebook": "a6110cb0", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R013", "coder": "Adriaan", "time": "2026-11-18 12:51:36", "codebook": "a6110cb0", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "1918", "unsure": false, "note": ""}
 {"item_id": "R014", "coder": "Adriaan", "time": "2026-11-18 12:51:59", "codebook": "a6110cb0", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "R015", "coder": "Adriaan", "time": "2026-11-18 12:53:14", "codebook": "a6110cb0", "round": "2", "analogy": "yes", "direction": "rupture", "kind": "named_event", "past": "Spoorwegramp 1892", "unsure": false, "note": ""}
