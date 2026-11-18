@@ -1,6 +1,6 @@
 {
   "round": 2,
-  "open": false,
+  "open": true,
   "coders": [
     "Ruben",
     "Fien",

@@ -131,7 +131,7 @@ Do not redraw once coding has started (the script refuses when `round2/labels/` 
 
 - [x] Record the decisions above; rewrite `CODEBOOK.md` (2026-11-18; new version hash in every answer).
 - [x] `app.py`: round switch (`&round=2`, reads `round2/data/`, own label files on the `labels` branch).
-- [ ] Open round 2: set `"open": true` in `data/setup.json`, push, redeploy, send the links.
+- [x] Open round 2 (2026-11-18): `"open": true`, pushed. Send the links.
 - [ ] Pull and adjudicate round 2 (adapt `3_pull_labels.py`, `4_adjudicate.py` to the round folder).
 - [ ] Ruben re-checks round 1 under the final codebook (`../labels/_review.jsonl`), then `5_score.py` for recall.
 - [ ] Rewrite the cascade prompts (examples outside the 250), run on all candidates.
