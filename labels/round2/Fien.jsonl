@@ -15,3 +15,4 @@
 {"item_id": "R013", "coder": "Fien", "time": "2026-11-18 12:51:34", "codebook": "a6110cb0", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "1918", "unsure": false, "note": ""}
 {"item_id": "R014", "coder": "Fien", "time": "2026-11-18 12:52:00", "codebook": "a6110cb0", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R015", "coder": "Fien", "time": "2026-11-18 12:53:17", "codebook": "a6110cb0", "round": "2", "analogy": "yes", "direction": "rupture", "kind": "named_event", "past": "1892", "unsure": false, "note": ""}
+{"item_id": "R016", "coder": "Fien", "time": "2026-11-18 12:55:44", "codebook": "a6110cb0", "round": "2", "analogy": "yes", "direction": "rupture", "kind": "series", "past": "vliegtuigrampen", "unsure": false, "note": ""}
