@@ -36,3 +36,4 @@
 {"item_id": "R033", "coder": "Fien", "time": "2026-11-24 12:47:00", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R034", "coder": "Fien", "time": "2026-11-24 12:49:03", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R035", "coder": "Fien", "time": "2026-11-24 12:50:51", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "grondverschuiving veengrond", "unsure": false, "note": ""}
+{"item_id": "R036", "coder": "Fien", "time": "2026-11-24 12:57:21", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": true, "note": "in laatste stuk context zit wel \"nog meer dan vroeger\""}
