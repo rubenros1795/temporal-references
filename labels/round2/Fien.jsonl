@@ -44,3 +44,4 @@
 {"item_id": "R040", "coder": "Fien", "time": "2026-11-24 13:08:30", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R041", "coder": "Fien", "time": "2026-11-24 13:10:56", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "rupture", "kind": "general_period", "past": "in honderd jaar, sinds een eeuw", "unsure": false, "note": ""}
 {"item_id": "R042", "coder": "Fien", "time": "2026-11-24 13:11:58", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "R043", "coder": "Fien", "time": "2026-11-24 13:19:07", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "rupture", "kind": "general_period", "past": "", "unsure": true, "note": "Twijfel over richting en soort verleden (gele zin is periode, context is gebeurtenis)"}
