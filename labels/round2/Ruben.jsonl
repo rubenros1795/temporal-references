@@ -46,3 +46,4 @@
 {"item_id": "R046", "coder": "Ruben", "time": "2026-11-24 15:18:35", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "series", "past": "", "unsure": true, "note": ""}
 {"item_id": "R047", "coder": "Ruben", "time": "2026-11-24 15:18:52", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R048", "coder": "Ruben", "time": "2026-11-24 15:19:39", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "Kapseizen veerboot North Sea Ferries", "unsure": false, "note": ""}
+{"item_id": "R049", "coder": "Ruben", "time": "2026-11-24 15:19:53", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "rupture", "kind": "general_period", "past": "", "unsure": false, "note": ""}
