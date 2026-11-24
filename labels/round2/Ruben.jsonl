@@ -45,3 +45,4 @@
 {"item_id": "R045", "coder": "Ruben", "time": "2026-11-24 15:18:20", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "Dijkdoorbraak Maasdijk 1920", "unsure": false, "note": ""}
 {"item_id": "R046", "coder": "Ruben", "time": "2026-11-24 15:18:35", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "series", "past": "", "unsure": true, "note": ""}
 {"item_id": "R047", "coder": "Ruben", "time": "2026-11-24 15:18:52", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "R048", "coder": "Ruben", "time": "2026-11-24 15:19:39", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "Kapseizen veerboot North Sea Ferries", "unsure": false, "note": ""}
