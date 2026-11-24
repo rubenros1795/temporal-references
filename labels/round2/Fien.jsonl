@@ -53,3 +53,4 @@
 {"item_id": "R046", "coder": "Fien", "time": "2026-11-24 13:38:14", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R047", "coder": "Fien", "time": "2026-11-24 13:39:33", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R048", "coder": "Fien", "time": "2026-11-24 13:47:27", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "kapseizen North Sea Ferries", "unsure": false, "note": ""}
+{"item_id": "R048", "coder": "Fien", "time": "2026-11-24 13:48:19", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "kapseizen North Sea Ferries", "unsure": false, "note": ""}
