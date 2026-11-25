@@ -84,3 +84,4 @@
 {"item_id": "R082", "coder": "Ruben", "time": "2026-11-25 13:46:15", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R083", "coder": "Ruben", "time": "2026-11-25 13:46:27", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R084", "coder": "Ruben", "time": "2026-11-25 13:46:40", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "R085", "coder": "Ruben", "time": "2026-11-25 13:46:54", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "", "unsure": false, "note": ""}
