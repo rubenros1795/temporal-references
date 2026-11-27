@@ -163,3 +163,4 @@
 {"item_id": "R156", "coder": "Ruben", "time": "2026-11-27 10:54:03", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R157", "coder": "Ruben", "time": "2026-11-27 10:54:28", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "rupture", "kind": "general_period", "past": "", "unsure": false, "note": ""}
 {"item_id": "R158", "coder": "Ruben", "time": "2026-11-27 10:54:51", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "WO2", "unsure": false, "note": ""}
+{"item_id": "R159", "coder": "Ruben", "time": "2026-11-27 10:55:00", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
