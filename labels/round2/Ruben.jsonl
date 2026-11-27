@@ -258,3 +258,4 @@
 {"item_id": "R168", "coder": "Ruben", "time": "2026-11-27 13:56:43", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "", "unsure": false, "note": ""}
 {"item_id": "R230", "coder": "Ruben", "time": "2026-11-27 13:57:29", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "", "unsure": false, "note": ""}
 {"item_id": "R235", "coder": "Ruben", "time": "2026-11-27 13:57:59", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
+{"item_id": "R109", "coder": "Ruben", "time": "2026-11-27 13:58:20", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
