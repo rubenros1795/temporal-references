@@ -119,3 +119,4 @@
 {"item_id": "R114", "coder": "Ruben", "time": "2026-11-27 10:28:27", "codebook": "01b7e117", "round": "2", "analogy": "no", "direction": "", "kind": "", "past": "", "unsure": false, "note": ""}
 {"item_id": "R115", "coder": "Ruben", "time": "2026-11-27 10:28:40", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "general_period", "past": "", "unsure": false, "note": ""}
 {"item_id": "R115", "coder": "Ruben", "time": "2026-11-27 10:28:50", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "general_period", "past": "'al jaren'...", "unsure": false, "note": ""}
+{"item_id": "R116", "coder": "Ruben", "time": "2026-11-27 10:29:25", "codebook": "01b7e117", "round": "2", "analogy": "yes", "direction": "similarity", "kind": "named_event", "past": "kredieten aan de derde wereld + 'destijds'", "unsure": true, "note": ""}
